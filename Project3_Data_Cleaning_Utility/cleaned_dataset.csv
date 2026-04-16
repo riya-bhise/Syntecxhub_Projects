@@ -1,0 +1,15 @@
+employee_name,age,department,salary_inr,joining_date,performance_score,email,phone,years_experience
+Alice Johnson,28,Engineering,75000,2020-03-15 00:00:00,8.5,alice@company.com,9876543210,6
+Bob Smith,35,Marketing,55000,2018-07-22 00:00:00,7.0,bob@company.com,8765432109,7
+Charlie Brown,42,Engineering,95000,2015-01-10 00:00:00,8.5,charlie@company.com,7654321098,11
+Diana Prince,29,Hr,48000,2021-05-30 00:00:00,9.2,diana@company.com,6543210987,4
+Eve Wilson,31,Engineering,82000,2019-11-05 00:00:00,8.8,eve@company.com,9988776655,6
+Frank Castle,27,Marketing,67000,2022-01-18 00:00:00,6.5,frank@company.com,,4
+Grace Hopper,38,Hr,61000,2017-08-14 00:00:00,9.5,grace@company.com,9123456789,8
+Bob Smith,35,Marketing,55000,2018-07-22 00:00:00,7.0,bob@company.com,8765432109,7
+Henry Ford,45,Engineering,110000,2013-04-20 00:00:00,9.8,henry@company.com,9012345678,12
+Iris West,26,Marketing,47000,2023-02-28 00:00:00,7.3,iris@company.com,8901234567,3
+Jack Ryan,33,Engineering,88000,2018-09-11 00:00:00,8.1,jack@company.com,,7
+Karen Page,40,Hr,67000,2018-08-16 12:00:00,8.9,karen@company.com,6789012345,7
+Leo Fitz,30,Marketing,58000,2020-12-07 00:00:00,7.6,leo@company.com,,5
+Mia Toretto,36,Engineering,91000,2017-03-25 00:00:00,9.0,mia@company.com,5678901234,9

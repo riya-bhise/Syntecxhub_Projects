@@ -1,0 +1,16 @@
+step,action,before,after,timestamp
+1,Standardized column names,"['  Employee Name  ', 'AGE', 'Department', 'Salary (INR)', 'Joining Date', 'Performance Score', 'Email', 'Phone']","['employee_name', 'age', 'department', 'salary_inr', 'joining_date', 'performance_score', 'email', 'phone']",2026-04-16 14:17:10
+2,Removed exact duplicate rows,0,0,2026-04-16 14:17:10
+3,Stripped & title-cased employee_name; nulls found,,1,2026-04-16 14:17:10
+4,Stripped & title-cased department column,,,2026-04-16 14:17:10
+5,"Cleaned salary (removed commas, cast to float)",mixed str/int,"float64, 2 nulls",2026-04-16 14:17:10
+6,"Fixed age dtype (text->numeric, cast to float)",mixed types,"float64, 1 nulls",2026-04-16 14:17:10
+7,"Parsed joining_date (multi-format, flagged invalid years)",string mixed formats,"datetime64, 1 NaT",2026-04-16 14:17:10
+8,"Validated phone (10-digit, cleaned non-numeric)",,3 invalid→NaN,2026-04-16 14:17:10
+9,Imputed salary_inr with median,2,0,2026-04-16 14:17:10
+10,Imputed age with median,1,0,2026-04-16 14:17:10
+11,Imputed performance_score with median,2,0,2026-04-16 14:17:10
+12,Imputed joining_date with median date,1,0,2026-04-16 14:17:10
+13,Dropped rows with null employee_name,1,0,2026-04-16 14:17:10
+14,Cast age and salary_inr to int,,,2026-04-16 14:17:10
+15,Added derived column: years_experience,,,2026-04-16 14:17:10
